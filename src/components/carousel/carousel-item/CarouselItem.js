@@ -1,6 +1,6 @@
 const CarouselItem = ({ isActive, innerTexts, imgURL }) => {
   return (
-    <div class={isActive == true ? "carousel-item active" : "carousel-item"}>
+    <div class={isActive === true ? "carousel-item active" : "carousel-item"}>
       <div class="row justify-content-center">
         <div class="d-flex col-12 justify-content-center px-5 px-lg-0 col-lg-4 col-xxl-3">
           <div class="w-100 d-flex flex-column justify-content-start align-items-start">

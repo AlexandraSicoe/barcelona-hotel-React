@@ -200,3 +200,25 @@ body {
 .carousel-container .carousel-control-prev-icon {
   background-image: url("https://www.hotelpalacebarcelona.com/assets/themes/www.hotelpalacebarcelona.com/img/icons/Flecha-left.svg");
 }
+
+.textsContainer::-webkit-scrollbar {
+  -webkit-appearance: none;
+  background-color: transparent;
+  width: 2px;
+}
+
+.textsContainer::-webkit-scrollbar-thumb {
+  background-color: #9a9a9a;
+  border-radius: 2px;
+  border: 2px solid red;
+  width: 2px;
+}
+
+.textsContainer::-webkit-scrollbar-thumb:hover {
+  background-color: red;
+}
+
+.textsContainer::-webkit-scrollbar-track {
+  border-radius: 1px;
+  width: 2px;
+}
