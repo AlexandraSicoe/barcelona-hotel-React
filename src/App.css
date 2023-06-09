@@ -1,38 +1,202 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@font-face {
+  font-family: "customFont";
+  src: url("./fonts/Freight Disp Book Italic.otf") format("otf");
+}
+* {
+  font-family: "Open Sans";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.modal .modal-header-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  position: relative;
+  width: 100%;
+}
+.modal img {
+  height: 38px;
+  aspect-ratio: auto 188/38;
+  width: 188px;
+}
+.modal .close-button {
+  position: absolute;
+  right: 0;
+  margin-right: 80px;
+}
+.modal .modal-content-container {
+  background-image: url(./images/modal-bg.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.modal .modal-content-container li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.modal .modal-content-container li li {
+  margin-bottom: 0px;
+}
+.modal .modal-content-container li a {
+  text-decoration: none;
+  color: #d8272e;
+  font-family: "customFont";
+  font-style: italic;
+  font-size: 50px;
+  letter-spacing: 0.98px;
+  line-height: 70px;
+}
+.modal .modal-content-container li div a {
+  text-decoration: underline;
+  color: #d8272e;
+  font-family: "customFont";
+  font-style: italic;
+  font-size: 26px;
+  line-height: 28px;
+  padding: 10px;
+}
+.modal .modal-content-container li div p {
+  color: #d8272e;
+  font-family: "Arial";
+  font-style: italic;
+  font-size: 26px;
+  line-height: 28px;
+}
+.modal .modal-footer-container ul {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.modal .modal-footer-container ul li {
+  list-style-type: none;
+}
+.modal .modal-footer-container ul li a {
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  font-size: 12px;
+  font-family: "Open Sans";
+  letter-spacing: 1.71px;
+}
+
+.content-container {
+  background-color: black;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.content-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  z-index: -1;
+  transform: scale(1.2);
+}
+.content-container .title-container {
+  z-index: 1;
+}
+.content-container .title-container .title {
   color: white;
+  font-size: 180px;
+  letter-spacing: 3.53px;
+  line-height: 130px;
+  text-shadow: 0 1px 9px rgba(0, 0, 0, 0.15);
+  font-family: "customFont";
+  font-style: italic;
+}
+.content-container .title-container h2 {
+  font-family: "customFont";
+  font-size: 30px;
+  color: white;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-top: 31px;
 }
 
-.App-link {
-  color: #61dafb;
+.carousel-container .carousel {
+  position: relative;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.carousel-container .designed-hr {
+  color: #d8272e;
+  position: absolute;
+  top: 120px;
+  display: block;
+  width: 100%;
+  z-index: 1;
+}
+.carousel-container .designed-hr hr {
+  width: 70%;
+  opacity: 1;
+}
+.carousel-container .carousel-item h4 {
+  font-family: customFont;
+  font-weight: 600;
+  font-size: 14px;
+  color: #d8272e;
+  letter-spacing: 2px;
+}
+.carousel-container .carousel-item img {
+  height: 509px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.carousel-container .carousel-item p {
+  font-family: "Open Sans";
+  font-size: 45px;
+  letter-spacing: 0.98px;
+  line-height: 40px;
+  margin-bottom: 1px;
+  margin-top: 15px;
+  font-weight: 300;
+}
+.carousel-container .carousel-item hr {
+  color: black;
+  width: 44px;
+}
+.carousel-container .carousel-item span {
+  font-family: "customFont";
+  font-style: italic;
+}
+.carousel-container .carousel-item .text {
+  font-family: customFont;
+  letter-spacing: 0;
+  font-size: 18px;
+  line-height: 28px;
+}
+.carousel-container .carousel-item .btn {
+  font-family: "customFont";
+  font-weight: bold;
+  background-color: transparent;
+  color: #d8272e;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  border-bottom: 1px solid #d8272e;
+  border-radius: 0;
+  padding: 0 0 5px 0;
+  margin-top: auto;
+}
+.carousel-container .carousel-item h2 {
+  font-family: "customFont";
+  font-style: italic;
+}
+.carousel-container .carousel-item .clock {
+  margin-top: 100px;
+}
+@media (max-width: 991px) {
+  .carousel-container .carousel-item .clock {
+    margin-top: 15px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.carousel-container .carousel-control-next-icon {
+  background-image: url("https://www.hotelpalacebarcelona.com/assets/themes/www.hotelpalacebarcelona.com/img/icons/Flecha.svg");
+}
+.carousel-container .carousel-control-prev-icon {
+  background-image: url("https://www.hotelpalacebarcelona.com/assets/themes/www.hotelpalacebarcelona.com/img/icons/Flecha-left.svg");
 }
