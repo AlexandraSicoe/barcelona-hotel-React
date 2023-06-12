@@ -6,6 +6,7 @@ import { useState } from "react";
 import Carousel from "./components/carousel/Carousel";
 import Promo from "./components/promo-section/Promo";
 import Socials from "./components/socials/Socials";
+import Accommodation from "./components/accommodation/Accommodation";
 
 const App = () => {
   const [modalVisible, setModalVisible] = useState(false);
@@ -32,7 +33,7 @@ const App = () => {
       <Carousel />
       <Promo />
       <Socials />
-
+      <Accommodation />
       <Modal
         modalVisible={modalVisible}
         setModalVisible={setModalVisible}
