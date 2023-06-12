@@ -1,4 +1,7 @@
 const style = {
+  socialsContainer: {
+    backgroundColor: "rgba(216, 216, 216, 0.40",
+  },
   paragraph: {
     fontSize: "14px",
     color: "#D8272E",
@@ -20,6 +23,12 @@ const style = {
     height: "285px",
     objectFit: "cover",
     marginBottom: "45px",
+  },
+  igMargin: {
+    marginRight: "2px",
+  },
+  fbMargin: {
+    marginLeft: "2px",
   },
 };
 export default style;
