@@ -7,6 +7,7 @@ import Carousel from "./components/carousel/Carousel";
 import Promo from "./components/promo-section/Promo";
 import Socials from "./components/socials/Socials";
 import Accommodation from "./components/accommodation/Accommodation";
+import Rooms from "./components/rooms/Rooms";
 
 const App = () => {
   const [modalVisible, setModalVisible] = useState(false);
@@ -30,10 +31,12 @@ const App = () => {
           title="bgvideo"
         />
       </div>
-      <Carousel />
+      <Carousel type={"type1"} />
       <Promo />
       <Socials />
       <Accommodation />
+      <Rooms />
+
       <Modal
         modalVisible={modalVisible}
         setModalVisible={setModalVisible}

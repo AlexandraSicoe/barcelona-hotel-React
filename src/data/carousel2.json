@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "El Palace Suite by Ronnie Wood",
+    "description": "This Art Deco suite was home to the Rolling Stones’ guitarist himself. Designed with his input, the soul of a rock star lives on in this one-of-a-kind suite.",
+    "urls": [
+      "https://www.hotelpalacebarcelona.com/assets/themes/www.hotelpalacebarcelona.com/img/rooms/Juke-Box-El-Palace-Suite-Ronnie-Wood---Hotel-El-Palace-Barcelona.tmedium.webp",
+      "https://www.hotelpalacebarcelona.com/assets/themes/www.hotelpalacebarcelona.com/img/rooms/Ronnie-Wood-21.tmedium.webp",
+      "https://www.hotelpalacebarcelona.com/assets/themes/www.hotelpalacebarcelona.com/img/rooms/El-Palace-Suite-by-Ronnie-Wood-Desk-Hotel-El-Palace-Barcelona.tmedium.webp"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "2El Palace Suite by Ronnie Wood",
+    "description": "2This Art Deco suite was home to the Rolling Stones’ guitarist himself. Designed with his input, the soul of a rock star lives on in this one-of-a-kind suite.",
+    "urls": [
+      "https://www.hotelpalacebarcelona.com/assets/themes/www.hotelpalacebarcelona.com/img/rooms/Juke-Box-El-Palace-Suite-Ronnie-Wood---Hotel-El-Palace-Barcelona.tmedium.webp",
+      "https://www.hotelpalacebarcelona.com/assets/themes/www.hotelpalacebarcelona.com/img/rooms/Ronnie-Wood-21.tmedium.webp",
+      "https://www.hotelpalacebarcelona.com/assets/themes/www.hotelpalacebarcelona.com/img/rooms/El-Palace-Suite-by-Ronnie-Wood-Desk-Hotel-El-Palace-Barcelona.tmedium.webp"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "3El Palace Suite by Ronnie Wood",
+    "description": "3This Art Deco suite was home to the Rolling Stones’ guitarist himself. Designed with his input, the soul of a rock star lives on in this one-of-a-kind suite.",
+    "urls": [
+      "https://www.hotelpalacebarcelona.com/assets/themes/www.hotelpalacebarcelona.com/img/rooms/Juke-Box-El-Palace-Suite-Ronnie-Wood---Hotel-El-Palace-Barcelona.tmedium.webp",
+      "https://www.hotelpalacebarcelona.com/assets/themes/www.hotelpalacebarcelona.com/img/rooms/Ronnie-Wood-21.tmedium.webp",
+      "https://www.hotelpalacebarcelona.com/assets/themes/www.hotelpalacebarcelona.com/img/rooms/El-Palace-Suite-by-Ronnie-Wood-Desk-Hotel-El-Palace-Barcelona.tmedium.webp"
+    ]
+  }
+]
