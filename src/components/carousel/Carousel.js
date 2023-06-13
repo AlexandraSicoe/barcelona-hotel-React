@@ -3,9 +3,10 @@ import carouselImg1 from "../../images/1.webp";
 import carouselImg2 from "../../images/2.webp";
 import carouselImg3 from "../../images/3.jpg";
 import Carouselitem2 from "./carousel-item2/Carouselitem2";
+import carousel2Data from "../../data/carousel2.json";
 
 const Carousel = ({ type }) => {
-  console.log(type);
+  console.log(carousel2Data);
   return (
     <div className={type === "type1" ? "container" : ""}>
       <div class="carousel-container">
@@ -56,9 +57,17 @@ const Carousel = ({ type }) => {
           ) : (
             type === "type2" && (
               <div class="carousel-inner py-5">
-                <Carouselitem2 />
-                <Carouselitem2 />
-                <Carouselitem2 />
+                {carousel2Data.map((carouselItem, index) => {
+                  return (
+                    <Carouselitem2
+                      counter={carouselItem.id}
+                      nrOfItems={carousel2Data.length}
+                      title={carouselItem.title}
+                      description={carouselItem.description}
+                      urls={carouselItem.urls}
+                    />
+                  );
+                })}
               </div>
             )
           )}

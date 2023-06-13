@@ -13,6 +13,7 @@ const App = () => {
   const [modalVisible, setModalVisible] = useState(false);
   const [textUnu, meowmeow] = useState("The Hotel");
 
+  console.log("meow");
   return (
     <div className="App">
       <div class="content-container">
