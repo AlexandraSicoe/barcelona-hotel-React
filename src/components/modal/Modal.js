@@ -40,7 +40,7 @@ const Modal = ({ modalVisible, setModalVisible, titleText, setTextUnu }) => {
                     <p>/</p>
                   </li>
                   <li>
-                    <a href="#">Rootop Garden</a>
+                    <a href="#">Rooftop Garden</a>
                   </li>
                   <li>
                     <p>/</p>
