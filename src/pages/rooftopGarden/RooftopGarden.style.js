@@ -13,9 +13,17 @@ const style={
     title:{
         color:"black",
         fontStyle:"italic",
-        fontSize:"70px",
+        fontSize:"60px",
+        maxWidth:"700px",
+        fontWeight: 300,
         letterSpacing:"2px",
-        maxWidth:"650px",
+        marginBottom:"40px"
+    },
+    descriptionMain:{
+        color:"black",
+        fontSize:"16px",
+        maxWidth:"700px",
+
     }
 }
 export default style;
